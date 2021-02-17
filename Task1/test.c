@@ -6,11 +6,11 @@ int word_count(char buff[]);
 
 int main() {
    	FILE *fp;
-   	char* filename = "Task1.txt";
+   	char* filename = "test.txt";
    	int count = 0;
    	int c,lastChar;
    	int paragraph = 0;
-   	char buff[100000];
+   	char buff[1000000];
    	bool flag = false;
    	int countPerParagraph[1000];
    	int paragraphCount;
