@@ -32,7 +32,9 @@ int main() {
             		break ;
         	}
         	if( flag == true){
-            		if(c == 10){
+			//printf("here");
+            		if(c == 32){
+			printf("check");
                 	characterCount = 0;
 			printf("%d\n",word_count(buff));
                 	countPerParagraph[paragraph] = word_count(buff);
@@ -46,6 +48,7 @@ int main() {
 
         	if( flag == false){
             		if(c == 10){
+			
                 	flag = true;
                 	c = 32;
                 	//count++;
